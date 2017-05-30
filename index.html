@@ -3,8 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome to Danazone</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="javascript/index.js"></script>
 </head>
 <body>
-    
+    <header>
+        <h1 class="welcome-to">Welcome to</h1>
+
+        <svg class="danazone first" viewBox="0 0 645.75 85.33">
+            <path class="c1" d="M120,306.48c-9.81,0-19.81-4.85-26.76-11.47a38.78,38.78,0,0,1-6.88-9h-5.8a44.39,44.39,0,0,0,39.65,25.44c10.25,0,19.82-3.86,27.82-10.36V293.8C142,301.3,129.55,306.48,120,306.48Z" transform="translate(-76.78 -226.11)"></path>
+            <path class="o2" d="M303.48,226.11A42.65,42.65,0,0,0,287,229.42v5.5a37.21,37.21,0,0,1,16.48-3.85c20.62,0,37.81,17.2,37.81,37.7s-17.2,37.7-37.81,37.7A37.21,37.21,0,0,1,287,302.63v5.48a42.51,42.51,0,0,0,16.48,3.33c23.37,0,43.11-19.29,43.11-42.67S326.85,226.11,303.48,226.11Z" transform="translate(-76.78 -226.11)"></path>
+            <rect class="t2" x="329.22" y="44.89" width="5" height="39"></rect>
+            <polygon class="h2" points="459.23 40.89 459.23 0.89 454.23 0.89 454.23 35.89 420.23 35.89 420.23 40.89 442.23 40.89 454.23 40.89 459.23 40.89"></polygon>
+            <rect class="e3" x="516.22" y="35.89" width="33" height="5"></rect>
+            <path class="s1" d="M697.83,231.07c7.83,0,13.12,3.86,16.87,9.81l3.75-3.09a23.3,23.3,0,0,0-20.28-11.69c-0.4,0-.78,0-1.16.05v5C697.28,231.1,697.55,231.07,697.83,231.07Z" transform="translate(-76.78 -226.11)"></path>
+        </svg>
+
+        <!-- -151 -->
+        <svg class="danazone second" data-scroll-speed="3" viewBox="0 0 645.75 85.33" style="transform:translateY(50px)">
+            <rect class="l2" x="124.22" y="78.89" width="22" height="5"></rect>
+            <path class="o1" d="M265.66,268.77A38,38,0,0,1,287,234.92v-5.5c-15.51,6.48-26.63,21.76-26.63,39.35S271.53,301.61,287,308.1v-5.48A38,38,0,0,1,265.66,268.77Z" transform="translate(-76.78 -226.11)"></path>
+            <rect class="t1" x="307.22" y="0.89" width="22" height="5"></rect>
+            <polygon class="h1" points="404.23 35.89 404.23 0.89 398.23 0.89 398.23 83.89 404.23 83.89 404.23 40.89 420.23 40.89 420.23 35.89 404.23 35.89"></polygon>
+            <polygon class="e1" points="510.23 83.89 550.23 83.89 550.23 78.89 516.23 78.89 516.23 59.89 510.23 59.89 510.23 83.89"></polygon>
+            <path class="s2" d="M696.73,306.48c-10,0-16.54-6.17-20.06-15L672,293.58c3.86,10.69,12.9,17.86,24.47,17.86H697v-5h-0.27Z" transform="translate(-76.78 -226.11)"></path>
+            <path class="s4" d="M682.18,246.95A15.61,15.61,0,0,1,697,231.11v-5c-11.83.53-20.11,9.05-20.11,21,0,6.61,3.09,11.47,8.6,14.88l11.51,6.1v-5.74C690.31,259.23,682.18,255.58,682.18,246.95Z" transform="translate(-76.78 -226.11)"></path>
+        </svg>
+
+        <!-- -366 -->
+        <svg class="danazone third" data-scroll-speed="1" viewBox="0 0 645.75 85.33" style="transform:translateY(0px)">
+            <path class="c2" d="M82,269.32c0-20.4,17.24-38.25,38-38.25,10.25,0,21,5.29,28,13.12v-7.28c-8-6.84-17.68-10.8-27.71-10.8-23.59,0-43.51,19.18-43.51,42.77A40.49,40.49,0,0,0,80.52,286h5.8A34.83,34.83,0,0,1,82,269.32Z" transform="translate(-76.78 -226.11)"></path>
+            <polygon class="l1" points="124.22 56.89 124.22 0.89 119.22 0.89 119.22 83.89 124.22 83.89 124.22 79.27 124.22 56.89"></polygon>
+            <polygon class="t3" points="356.23 5.89 356.23 0.89 329.23 0.89 329.23 6.06 329.23 18.64 329.23 44.89 334.23 44.89 334.23 5.89 356.23 5.89"></polygon>
+            <rect class="h3" x="454.22" y="40.89" width="5" height="43"></rect>
+            <polygon class="e2" points="516.23 35.89 516.23 28.56 516.23 5.89 550.23 5.89 550.23 0.89 510.23 0.89 510.23 59.89 516.23 59.89 516.23 49.22 516.23 40.89 516.23 35.89"></polygon>
+            <path class="s3" d="M722.53,287.29c0-7.5-3.2-12.57-9.48-16.54l-15.87-8.27-0.17-.08v5.74l3.48,1.84c7.17,3.53,16.76,7.5,16.76,16.87,0,10.93-9.43,19.47-20.24,19.61v5C710.26,311.18,722.53,300.91,722.53,287.29Z" transform="translate(-76.78 -226.11)"></path>
+        </svg>
+    </header>
+
+    <div class="about">
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+            Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus
+            lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
+            facilisis luctus, metus</p>
+
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+            Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus
+            lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
+            facilisis luctus, metus</p>
+
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+            Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus
+            lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
+            facilisis luctus, metus</p>
+
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+            Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus
+            lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
+            facilisis luctus, metus</p>
+
+
+        <p>quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum
+            sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus,
+            tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+            Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus
+            lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
+            facilisis luctus, metus</p>
+
+
+        <p>quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum
+            sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus,
+            tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+            Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus
+            lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
+            facilisis luctus, metus</p>
+
+        <p>quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum
+            sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus,
+            tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+            Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus
+            lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
+            facilisis luctus, metus</p>
+    </div>
 </body>
 </html>

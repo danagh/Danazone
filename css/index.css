@@ -1,0 +1,56 @@
+header {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 25rem;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.welcome-to {
+    font-family: "futura-pt", helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 1rem;
+    text-align: center;
+}
+
+header svg {
+    display: block;
+    position: relative;
+    fill: black;
+}
+
+header svg.first {
+    padding-top: 0;
+    margin-top: 4rem;
+}
+
+header svg.second {
+    position: relative;
+    padding-top: 0;
+    top: -2rem;
+}
+
+header svg.third {
+    position: relative;
+    padding-top: 0;
+    margin-top: 1.45rem;
+}
+
+header svg.danazone {
+    display: block;
+    margin: auto;
+    max-width: 900px;
+    padding-top: 4rem;
+}
+
+.about{
+
+}
